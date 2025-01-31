@@ -26,16 +26,16 @@ The main entry point of the Dash application. It initializes the app, defines th
 
 ### `calculations.py`
 Contains the core computational logic for modeling metal-chelator equilibria.<br>
-`Calculator` class implements functions to compute equilibrium concentrations and stability constants.<br>
-`ConstantUtils` class provides utility functions related to chemical constants and conversions.
+-`Calculator` class implements functions to compute equilibrium concentrations and stability constants.<br>
+-`ConstantUtils` class provides utility functions related to chemical constants and conversions.
 
 ### `processing.py`
 Handles data preprocessing tasks.<br>
-`Preprocessing` class includes methods to structure inputs.
+-`Preprocessing` class includes methods to structure inputs.
 
 ### `plotting.py`
 Plotting functions based on user inputs.<br>
-`Plotting` class generates Plotly graphs based on calculated data.
+-`Plotting` class generates Plotly graphs based on calculated data.
 
 ### `webmaxc_chelator.json` and `webmaxc_protonation.json`
 Provides binding and acid dissociation constants extracted from WEBMAXC.
