@@ -7,9 +7,13 @@
 
 ## Overview
 
-The **free metal calculator** is an interactive web application built with Dash that is designed to visualize metal ion buffering under standard conditions. The computational approach was borrowed entirely from [WEBMAXC](https://somapp.ucdmc.ucdavis.edu/pharmacology/bers/maxchelator/webmaxc/webmaxcS.htm) and so the results should be very similar to those provided by that older tool. This appplication extends on the capabilities of that tool by providing data visualizatioin and extensibility through configurable JSON files. 
+The **free metal calculator** is an interactive web application built with Dash that is designed to visualize metal ion buffering under standard conditions. The computational approach was borrowed entirely from [WEBMAXC](https://somapp.ucdmc.ucdavis.edu/pharmacology/bers/maxchelator/webmaxc/webmaxcS.htm) and so the results should be very similar. This appplication extends on the capabilities of that tool by providing data visualizatioin and extensibility through configurable JSON files. 
 
 ## Notes
+
+Please note that the limitations of **WEBMAXC** still apply:
+
+> **NOTE:** It is possible with the **FIND FREE METAL** calculation to produce answers that are not valid. This is more likely to occur with multiple metals. If you find one of the metals shows almost no effect of the chelator presence, be suspicious. Try different concentrations of the second metal. If there is a point where the result suddenly changes the first metal, then you are having problems with a convergence error. Try the Windows version. Here double precision math is used and it is also able to warn specifically about convergence problems.
 
 ## Attribution
 
