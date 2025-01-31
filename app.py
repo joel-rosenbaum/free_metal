@@ -2,6 +2,7 @@ import dash
 from dash import Dash, dcc, html, Input, Output, State, MATCH, ALL, no_update
 import plotly.graph_objs as go  
 import math
+import os
 
 from calculations import Calculator
 from processing import Preprocessing
@@ -9,6 +10,8 @@ from plotting import Plotting
 
 
 app = Dash(__name__)
+server = app.server 
+
 
 # Initialize classes
 preprocessor = Preprocessing()
@@ -361,4 +364,9 @@ def update_equilibrium_plot(n_clicks,
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, host='127.0.0.1')
+    port = int(os.getenv("PORT", 8050))  
+    app.run_server(debug=False, host="0.0.0.0", port=port)
+
+server = app.server
+    
+
