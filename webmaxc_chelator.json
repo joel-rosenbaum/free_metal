@@ -1,0 +1,243 @@
+{
+  "CHELATOR_CONSTANTS": [
+    {
+      "chelator": "ADA",
+      "metals": {
+        "Ag1":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 4.01,  "MHL_logK": 0.0,   "ML_dH": -2.0,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 6.91,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 9.68,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 2.47,  "MHL_logK": 0.0,   "ML_dH": 5.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 4.93,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 8.02,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 8.4,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 2.99,  "MHL_logK": 0.0,   "ML_dH": -1.0,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 7.3,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "AMP-5",
+	  
+      "metals": {
+        "Ag1":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 6.17,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 1.69,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 1.825, "MHL_logK": 0.0,   "ML_dH": -1.0,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 2.551, "MHL_logK": 0.0,   "ML_dH": -1.1,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 3.265, "MHL_logK": 0.0,   "ML_dH": -6.2,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 1.98,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 1.895, "MHL_logK": 0.0,   "ML_dH": 1.8,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 2.35,  "MHL_logK": 0.0,   "ML_dH": 2.2,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 2.708, "MHL_logK": 0.0,   "ML_dH": -2.4,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 1.75,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 2.72,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "ADP",
+      "metals": {
+        "Ag1":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 7.82,  "MHL_logK": 4.79,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Ba2":  { "ML_logK": 2.36,  "MHL_logK": 1.34,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Ca2":  { "ML_logK": 2.839, "MHL_logK": 1.469, "ML_dH": 2.3,   "MHL_dH": 1.5,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 4.53,  "MHL_logK": 2.6,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Co2":  { "ML_logK": 4.173, "MHL_logK": 0.0,   "ML_dH": 2.8,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 5.88,  "MHL_logK": 2.62,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Fe2":  { "ML_logK": 4.73,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 3.211, "MHL_logK": 1.555, "ML_dH": 3.7,   "MHL_dH": 1.8,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 4.058, "MHL_logK": 1.89,  "ML_dH": 3.2,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 4.209, "MHL_logK": 2.31,  "ML_dH": 1.5,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 2.54,  "MHL_logK": 1.41,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Zn2":  { "ML_logK": 4.22,  "MHL_logK": 2.04,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  }
+      }
+    },
+    {
+      "chelator": "ATP",
+      "metals": {
+        "Ag1":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 7.92,  "MHL_logK": 4.99,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Ba2":  { "ML_logK": 3.18,  "MHL_logK": 1.88,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Ca2":  { "ML_logK": 3.828, "MHL_logK": 2.144, "ML_dH": 3.2,   "MHL_dH": 1.9,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 5.32,  "MHL_logK": 3.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Co2":  { "ML_logK": 4.601, "MHL_logK": 2.66,  "ML_dH": 4.5,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 6.428, "MHL_logK": 3.651, "ML_dH": 0.8,   "MHL_dH": -3.5,  "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 5.61,  "MHL_logK": 0.0,   "ML_dH": 2.61,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 4.143, "MHL_logK": 2.299, "ML_dH": 4.4,   "MHL_dH": 2.3,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 4.764, "MHL_logK": 2.65,  "ML_dH": 4.3,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 4.92,  "MHL_logK": 2.79,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Pb2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 3.43,  "MHL_logK": 2.08,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1"  },
+        "Zn2":  { "ML_logK": 5.169, "MHL_logK": 2.695, "ML_dH": 3.9,   "MHL_dH": 1.1,   "REF": null,	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "BAPTA",
+      "metals": {
+        "Ag1":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 6.97,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1"  },
+        "Cd2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 1.77,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1"  },
+        "Mn2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 0.0,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "Citrate",
+      "metals": {
+        "Ag1":  { "ML_logK": 0.0,    "MHL_logK": 0.0,    "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 8.04,   "MHL_logK": 5.16,   "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": "25/0.1",	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 2.8,    "MHL_logK": 1.48,   "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": "25/0.1",	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 3.533,  "MHL_logK": 2.09,   "ML_dH": -2.0,  "MHL_dH": -1.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 3.673,  "MHL_logK": 2.188,  "ML_dH": 2.0,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 5.0,    "MHL_logK": 3.02,   "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": "20/0.1",	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 5.9,    "MHL_logK": 3.593,  "ML_dH": 0.0,   "MHL_dH": 2.0,    "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 4.4,    "MHL_logK": 2.9,    "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 11.466, "MHL_logK": 6.7,    "ML_dH": -6.9,  "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 3.493,  "MHL_logK": 1.854,  "ML_dH": 2.0,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 3.81,   "MHL_logK": 2.3,    "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": "25/0.1",	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 5.261,  "MHL_logK": 3.214,  "ML_dH": 4.0,   "MHL_dH": 3.0,    "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 4.51,   "MHL_logK": 3.05,   "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 2.99,   "MHL_logK": 1.72,   "ML_dH": 0.0,   "MHL_dH": 0.0,    "REF": "25/0.1",	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 4.943,  "MHL_logK": 2.978,  "ML_dH": 2.0,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "DiBrBAP",
+      "metals": {
+        "Ag1":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 5.96, "MHL_logK": 0.0,   "ML_dH": 5.53,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 1.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 0.0,  "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "EDTA",
+      "metals": {
+        "Ag1":  { "ML_logK": 6.669,  "MHL_logK": 2.417,  "ML_dH": -7.5,   "MHL_dH": 0.0,    "REF": "20/0.1",	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 16.254, "MHL_logK": 8.652,  "ML_dH": 12.6,   "MHL_dH": -3.9,   "REF": null,	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 7.95,   "MHL_logK": 0.0,    "ML_dH": -5.0,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 10.734, "MHL_logK": 3.652,  "ML_dH": -6.1,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 16.622, "MHL_logK": 9.269,  "ML_dH": -9.1,   "MHL_dH": -0.4,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 16.509, "MHL_logK": 9.275,  "ML_dH": -4.1,   "MHL_dH": -1.9,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 18.89,  "MHL_logK": 11.757, "ML_dH": -8.2,   "MHL_dH": -2.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 14.358, "MHL_logK": 6.84,   "ML_dH": -4.0,   "MHL_dH": -1.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 25.145, "MHL_logK": 16.183, "ML_dH": -2.7,   "MHL_dH": -0.1,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 8.755,  "MHL_logK": 2.343,  "ML_dH": 3.4,    "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 13.955, "MHL_logK": 6.812,  "ML_dH": -4.6,   "MHL_dH": -1.2,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 18.502, "MHL_logK": 11.366, "ML_dH": -7.5,   "MHL_dH": -1.8,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 18.172, "MHL_logK": 10.71,  "ML_dH": -13.1,  "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 8.779,  "MHL_logK": 2.447,  "ML_dH": -4.1,   "MHL_dH": 0.0,    "REF": null,	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 16.566, "MHL_logK": 9.304,  "ML_dH": -4.7,   "MHL_dH": 0.0,    "REF": "25/0.1",	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "EGTA",
+      "metals": {
+        "Ag1":  { "ML_logK": 6.88,   "MHL_logK": 4.914,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "20/0.1",	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 13.9,   "MHL_logK": 8.394,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 8.419,  "MHL_logK": 4.253,  "ML_dH": -8.9,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 10.973, "MHL_logK": 5.307,  "ML_dH": -8.4,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 16.693, "MHL_logK": 10.217, "ML_dH": -14.8, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 12.343, "MHL_logK": 7.817,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 17.845, "MHL_logK": 12.729, "ML_dH": -11.0, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 11.873, "MHL_logK": 6.867,  "ML_dH": -5.2,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 20.5,   "MHL_logK": 0.0,    "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 5.223,  "MHL_logK": 3.377,  "ML_dH": 5.2,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 12.31,  "MHL_logK": 6.774,  "ML_dH": -8.2,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 13.555, "MHL_logK": 10.119, "ML_dH": -3.8,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 14.773, "MHL_logK": 10.337, "ML_dH": -13.2, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+		"Zn2":	{ "ML_logK": 12.661, "MHL_logK": 8.145,  "ML_dH": -4.3,  "MHL_dH": 0.0,	  "REF": null,  "stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "HEDTA",
+      "metals": {
+        "Ag1":  { "ML_logK": 6.67,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 14.299, "MHL_logK": 6.484, "ML_dH": 9.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 6.275,  "MHL_logK": 0.0,   "ML_dH": -5.4,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 8.189,  "MHL_logK": 0.0,   "ML_dH": -6.5,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 13.837, "MHL_logK": 6.182, "ML_dH": -10.3, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 14.589, "MHL_logK": 6.874, "ML_dH": -6.5,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 17.525, "MHL_logK": 10.02, "ML_dH": -9.4,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 12.283, "MHL_logK": 5.128, "ML_dH": -6.0,  "MHL_dH": -1.0,  "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 19.7,   "MHL_logK": 0.0,   "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 6.965,  "MHL_logK": 0.0,   "ML_dH": 3.4,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 11.173, "MHL_logK": 0.0,   "ML_dH": -5.2,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 17.237, "MHL_logK": 9.822, "ML_dH": -10.3, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 15.765, "MHL_logK": 8.02,  "ML_dH": -12.6, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 6.873,  "MHL_logK": 0.0,   "ML_dH": -5.2,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 14.713, "MHL_logK": 0.0,   "ML_dH": -8.4,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "NTA",
+      "metals": {
+        "Ag1":  { "ML_logK": 5.161, "MHL_logK": 2.442,  "ML_dH": -6.3,  "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 11.6,  "MHL_logK": 3.781,  "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 4.836, "MHL_logK": 0.0,    "ML_dH": -1.44, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 6.465, "MHL_logK": 0.0,    "ML_dH": -1.36, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 9.818, "MHL_logK": 0.0,    "ML_dH": -4.0,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 10.38, "MHL_logK": 0.0,    "ML_dH": -0.1,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 13.03, "MHL_logK": 4.911,  "ML_dH": -1.9,  "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 8.82,  "MHL_logK": 0.0,    "ML_dH": 0.0,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 15.86, "MHL_logK": 7.041,  "ML_dH": 3.2,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 5.454, "MHL_logK": 0.0,    "ML_dH": 4.3,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 7.448, "MHL_logK": 0.0,    "ML_dH": 1.3,   "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 11.54, "MHL_logK": 0.0,    "ML_dH": -2.6,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 11.53, "MHL_logK": 4.261,  "ML_dH": -3.8,  "MHL_dH": 0.0,   "REF": "25/0.1",	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 5.004, "MHL_logK": 0.0,    "ML_dH": -0.54, "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 10.67, "MHL_logK": 0.0,    "ML_dH": -0.9,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" }
+      }
+    },
+    {
+      "chelator": "TPEN",
+      "metals": {
+        "Ag1":  { "ML_logK": 11.289, "MHL_logK": 0.0,   "ML_dH": -18.0,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Al3":  { "ML_logK": 0.0,    "MHL_logK": 0.0,   "ML_dH": 0.0,    "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ba2":  { "ML_logK": 0.0,    "MHL_logK": 0.0,   "ML_dH": 0.0,    "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ca2":  { "ML_logK": 4.4,    "MHL_logK": 0.0,   "ML_dH": 0.0,    "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cd2":  { "ML_logK": 16.329, "MHL_logK": 0.0,   "ML_dH": -18.8,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Co2":  { "ML_logK": 16.623, "MHL_logK": 0.0,   "ML_dH": -17.2,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Cu2":  { "ML_logK": 20.489, "MHL_logK": 0.0,   "ML_dH": -22.8,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe2":  { "ML_logK": 14.609, "MHL_logK": 0.0,   "ML_dH": -18.0,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Fe3":  { "ML_logK": 0.0,    "MHL_logK": 0.0,   "ML_dH": 0.0,    "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mg2":  { "ML_logK": 1.7,    "MHL_logK": 0.0,   "ML_dH": 0.0,    "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Mn2":  { "ML_logK": 10.28,  "MHL_logK": 0.0,   "ML_dH": -11.4,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Ni2":  { "ML_logK": 21.603, "MHL_logK": 0.0,   "ML_dH": -23.6,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Pb2":  { "ML_logK": 14.048, "MHL_logK": 0.0,   "ML_dH": -19.2,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Sr2":  { "ML_logK": 0.0,    "MHL_logK": 0.0,   "ML_dH": 0.0,    "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" },
+        "Zn2":  { "ML_logK": 15.589, "MHL_logK": 0.0,   "ML_dH": -14.8,  "MHL_dH": 0.0,   "REF": null,	"stoic": "1:1" }
+      }
+    }
+  ]
+}
