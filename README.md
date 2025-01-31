@@ -25,16 +25,16 @@ This project uses methods from **WEBMAXC** originally developed by Chris Patton.
 The main entry point of the Dash application. It initializes the app, defines the layout, and sets up callbacks to handle user interactions.
 
 ### `calculations.py`
-Contains the core computational logic for modeling metal-chelator equilibria.
-`Calculator` class implements functions to compute equilibrium concentrations and stability constants.
+Contains the core computational logic for modeling metal-chelator equilibria.<br>
+`Calculator` class implements functions to compute equilibrium concentrations and stability constants.<br>
 `ConstantUtils` class provides utility functions related to chemical constants and conversions.
 
 ### `processing.py`
-Handles data preprocessing tasks.
+Handles data preprocessing tasks.<br>
 `Preprocessing` class includes methods to structure inputs.
 
 ### `plotting.py`
-Plotting functions based on user inputs.
+Plotting functions based on user inputs.<br>
 `Plotting` class generates Plotly graphs based on calculated data.
 
 ### `webmaxc_chelator.json` and `webmaxc_protonation.json`
