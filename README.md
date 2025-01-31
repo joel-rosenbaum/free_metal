@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **free metal calculator** is an interactive web application built with Dash that is designed to visualize metal ion buffering under standard conditions. The computational approach was borrowed entirely from [WEBMAXC] (https://somapp.ucdmc.ucdavis.edu/pharmacology/bers/maxchelator/webmaxc/webmaxcS.htm) and so the results should be very similar to those provided by that older tool. This appplication extends on the capabilities of that tool by providing data visualizatioin and extensibility through configurable JSON files. 
+The **free metal calculator** is an interactive web application built with Dash that is designed to visualize metal ion buffering under standard conditions. The computational approach was borrowed entirely from [WEBMAXC](https://somapp.ucdmc.ucdavis.edu/pharmacology/bers/maxchelator/webmaxc/webmaxcS.htm) and so the results should be very similar to those provided by that older tool. This appplication extends on the capabilities of that tool by providing data visualizatioin and extensibility through configurable JSON files. 
 
 ## Notes
 
