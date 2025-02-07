@@ -1,0 +1,19 @@
+{
+    "METAL_PKAS": [
+        {	"metal": "Ag1",		"pKa_values": [11.7, 12.7]},
+        {	"metal": "Al3",		"pKa_values": [5.0]},
+        {	"metal": "Ba2",		"pKa_values": [13.4]},
+        {	"metal": "Ca2",		"pKa_values": [12.6]},
+        {	"metal": "Cd2", 	"pKa_values": [9.9, 10.6, 11.6, 12.3]},
+        {	"metal": "Co2", 	"pKa_values": [8.9]},
+        {	"metal": "Cu2", 	"pKa_values": [8.0]},
+        {	"metal": "Fe2", 	"pKa_values": [6.7]},
+        {	"metal": "Fe3",		"pKa_values": [2.5, 3.3]},
+        {	"metal": "Mg2",		"pKa_values": [11.4]},
+        {	"metal": "Mn2", 	"pKa_values": [10.6]},
+        {	"metal": "Ni2", 	"pKa_values": [9.9]},
+        {	"metal": "Pb2", 	"pKa_values": [7.1]},
+		{	"metal": "Sr2", 	"pKa_values": [13.2]},
+		{	"metal": "Zn2", 	"pKa_values": [9.0]}
+    ]
+}

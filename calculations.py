@@ -141,6 +141,16 @@ class ConstantUtils:
             "ligand_stoichiometry": ligand_stoichiometry,
             "metal_valence": metal_valence
         }
+    
+    @staticmethod
+    def get_metal_pkas(metal_name, hydroxide_json="perrin_metals.json"):
+        with open(hydroxide_json, "r") as f:
+            data = json.load(f)["METAL_PKAS"]
+        for item in data:
+            if item["metal"] == metal_name:
+                return item["pKa_values"]
+        return None
+        
     # end of ConstantUtils
 
 
@@ -164,6 +174,18 @@ class EquilibriumUtils:
             product_accumulator *= (proton_k * hydrogen_molar)
             denominator += product_accumulator
         return binding_k / denominator
+    
+    @staticmethod
+    def compute_metal_hydroxide_fraction(metal_name, ph_value, hydroxide_json="perrin_metals.json"):
+        pkas = ConstantUtils.get_metal_pkas(metal_name, hydroxide_json)
+        if not pkas:
+            return 1.0  # No hydrolysis adjustment if no pKa data
+        denominator = 1.0
+        product = 1.0
+        for pKa in pkas: # Alpha value adjustment for metal hydrolysis
+            product *= 10 ** (ph_value - pKa)
+            denominator += product
+        return 1.0 / denominator
     
     @staticmethod
     def solve_free_metal(
@@ -432,6 +454,11 @@ class Calculator:
             ligand_stoich_matrix
         )
 
+        # Adjust for metal hydrolysis
+        for i, metal in enumerate(metals):
+            fraction_free = EquilibriumUtils.compute_metal_hydroxide_fraction(metal["name"], ph_value)
+            metals_free[i] *= fraction_free
+                
         # Compute final Kd for each pair
         kd_values = []
         for m_idx, metal in enumerate(metals):
